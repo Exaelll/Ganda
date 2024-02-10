@@ -1,4 +1,5 @@
 // SLIDESHOW
+
 let slideIndex = 0;
     showSlides();
     
@@ -18,7 +19,10 @@ let slideIndex = 0;
 
 // NO BUTTON
 // NO BUTTON RUNS AWAY WHEN PRESSED
-const nBtn = document.querySelector(".nBtn");
+const nBtn = document.getElementById("runaway-btn");
+nBtn.addEventListener('click', () => {
+    nBtn.textContent = "Weh???";
+});
 
 const animateMove = (element, prop, pixels) =>
     anime({
@@ -71,6 +75,7 @@ nBtn.addEventListener("mouseover", function (event) {
 const btn = document.getElementById('yBtn');
 
 btn.addEventListener('click', () => {
+    
   const box = document.getElementsByClassName('yesOutcome')[0];
   // 👇️ hides element (still takes up space on the page)
   // box.style.visibility = 'hidden';
@@ -81,4 +86,15 @@ btn.addEventListener('click', () => {
 //removes the question
     const theQuestion = document.getElementsByClassName('Yess')[1];
     theQuestion.style.display = 'none';
+
+    const svg = document.querySelector('svg');
+    svg.style.visibility = 'visible';
 });
+
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
