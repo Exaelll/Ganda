@@ -65,12 +65,23 @@ img {
   border: rgb(163, 163, 255) solid 2px;
 }
 
+.tulipIcon {
+  height:10%;
+  width:10%;
+  position:absolute;
+  top:0;
+  left:0;
+  margin-top:2%;
+  border-radius: 0px;
+  border: 0;
+}
+
 /* Slideshow container */
 .slideshow-container {
   position: relative;
   max-width: 350px;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 /* Fading animation */
