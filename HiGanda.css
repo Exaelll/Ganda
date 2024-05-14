@@ -301,7 +301,7 @@ img {
 /*LOGIN FORM*/
 #loginForm {
   width: 100%;
-  padding: 5%;
+  padding: 15px;
   background-color: rgb(207, 207, 255);
   font-family: 'Roboto', sans-serif;
   display: block;
@@ -338,6 +338,7 @@ input {
   padding: 10px;
   border: none;
   border-radius: 15px;
+  font-size: 1vw;
 }
 
 
@@ -348,7 +349,7 @@ input[type="password"] {
   padding: 20px;
   border: none;
   border-radius: 20px;
-  font-size: 90%;
+  font-size: 2vw;
   background-color: lavender;
   color: black;
 }
@@ -356,10 +357,10 @@ input[type="password"] {
 input[type="submit"] {
   width: 90%;
   height: 70%;
-  padding: 10px;
+  padding: 15px;
   border: none;
   border-radius: 20px;
-  font-size: 90%;
+  font-size: 2vw;
   margin-bottom: 3%;
   background-color: rgb(170, 170, 255);
   color: white;
@@ -370,12 +371,12 @@ input[type="submit"]:hover {
 }
 
 .godown {
-  height:100%;
-  width:20%;
+  height: 100%;
+  width: 50vw;
   display: none;
   position: fixed;
   justify-content: center;
   align-items: center;
-  margin-left:40%;
+  margin-left: 24.5%;
   z-index: 99;
 }
